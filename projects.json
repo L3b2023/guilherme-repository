@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "MyTasks-service",
+    "description": "API service to serve a TaskList app. Built with Node.js and Express - It deals with MySQL database",
+    "link": "https://github.com/L3b2023/MyTasks-service"
+  },
+  {
+    "id": 2,
+    "title": "Pizzeria Backend",
+    "description": "API service to serve a pizzeria order app. Built with Node.js and Express. It deals with MySQL database",
+    "link": "https://github.com/L3b2023/pizzeria-backend-challenge"
+  },
+  {
+    "id": 3,
+    "title": "DashCam",
+    "description": "A program that uses computacional vision along with dash cameras to detect people, cars, motorcycles and signals using AI",
+    "link": "https://github.com/L3b2023/DashCam"
+  }
+]
