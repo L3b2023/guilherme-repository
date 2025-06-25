@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans min-h-screen transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="flex justify-end p-4">
+    <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
+      <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 text-center animate-fade-in delay-1">
+    <h1 class="text-5xl sm:text-7xl md:text-8xl font-bold">Guilherme</h1>
+    <p class="text-2xl sm:text-3xl md:text-4xl mt-4 animate-fade-in delay-2">Backend Developer</p>
+    <p class="text-lg sm:text-xl md:text-2xl mt-6 max-w-3xl mx-auto animate-fade-in delay-3">
+      I’m a backend developer who likes solving real problems with code.
+    </p>
+    <a id="view-work-btn" class="text-lg sm:text-xl mt-8 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 animate-fade-in delay-4 cursor-pointer">View My Work</a>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800 hidden">
+    <div class="max-w-7xl mx-auto">
+      <div id="projects-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 hidden">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">Technologies I'm used to:</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="text-base sm:text-lg px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full">Node.js</span>
+        <span class="text-base sm:text-lg px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full">Express.js</span>
+        <span class="text-base sm:text-lg px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full">SQL</span>
+        <span class="text-base sm:text-lg px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full">JavaScript</span>
+        <span class="text-base sm:text-lg px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full">Python</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800 text-center hidden">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">Contact Me</h2>
+      <p class="text-base sm:text-lg mb-6">Hit me up on GitHub or send me an email</p>
+      <div class="flex justify-center space-x-6 text-2xl">
+        <a href="https://github.com/L3b2023" class="text-gray-500 hover:text-blue-500"><i class="fab fa-github">My GitHub</i></a>
+        <a href="mailto:pedrogames9954@gmail.com" class="text-gray-500 hover:text-blue-500"><i class="fas fa-envelope">My Email</i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="py-6 px-4 bg-gray-100 dark:bg-gray-800 text-center text-sm hidden">
+    <p>© 2025 Guilherme. All rights reserved.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
